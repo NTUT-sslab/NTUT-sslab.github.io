@@ -1,0 +1,66 @@
+{
+  "title": "Software Security Lab",
+  "colon": ": ",
+  "separator": ", ",
+  "public": {
+    "backtotop": "Back to Top"
+  },
+  "nav": {
+    "home": "Home",
+    "member": "Member",
+    "research": "Research & Industrial Projects",
+    "thesis": "Thesis"
+  },
+  "degree": {
+    "degree": "Degree",
+    "undergraduate": "Undergraduate",
+    "master": "Master",
+    "phd": "PhD",
+    "graduated": "Graduated"
+  },
+  "index": {
+    "introduction": "Introduction"
+  },
+  "member": {
+    "qualifications": "Highest Qualification",
+    "room": "Room",
+    "phone": "Phone Number",
+    "expertise": "Expertise",
+    "member": "Member",
+    "interest": "Interest",
+    "researchDirection": "Research Direction",
+    "joinDate": "Join Date",
+    "website": "Website",
+    "advisor": {
+      "advisor": "Advisor",
+      "paper": "Conference Paper",
+      "certification": "Certification"
+    }
+  },
+  "research": {
+    "title": "Research & Industrial Projects",
+    "researcher": "Researcher",
+    "abstract": "Abstract"
+  },
+  "thesis": {
+    "thesis": "Thesis",
+    "title": "Topic",
+    "author": "Author",
+    "year": "Year",
+    "link": "Link"
+  },
+  "department": {
+    "department": "Department",
+    "csie": "Computer Science and Information Engineering",
+    "mpis": "Master Program in Information Security"
+  },
+  "404": {
+    "title": "404 Not Found",
+    "content": "The page you are looking for does not exist."
+  },
+  "50x": {
+    "title": "Internal Server Error",
+    "content": "An unexpected error occurred. Please try again later."
+  },
+  "egg": "Congratulations! You found an Easter egg!"
+}

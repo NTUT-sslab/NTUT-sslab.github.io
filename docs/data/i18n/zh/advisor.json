@@ -1,0 +1,11 @@
+{
+  "name": "陳香君",
+  "image": null,
+  "avatar": "/data/advisor/avatar.jpg",
+  "position": "助理教授",
+  "qualifications": "美國德州大學阿靈頓分校 數學博士",
+  "room": "科研大樓 1627 室",
+  "phone": "02-2771-2171 分機 4223",
+  "email": "annette@ntut.edu.tw",
+  "expertise": ["軟體安全", "軟體測試", "通訊", "有限元素"]
+}

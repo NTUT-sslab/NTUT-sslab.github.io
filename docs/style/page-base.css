@@ -1,0 +1,9 @@
+
+html {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 10px;
+}

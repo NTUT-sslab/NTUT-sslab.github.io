@@ -1,0 +1,63 @@
+{
+  "title": "軟體安全實驗室",
+  "colon": "：",
+  "separator": "、",
+  "nav": {
+    "home": "首頁",
+    "member": "成員",
+    "research": "研究與產學計畫",
+    "thesis": "論文"
+  },
+  "degree": {
+    "degree": "學位",
+    "undergraduate": "專題生",
+    "master": "碩士生",
+    "phd": "博士生",
+    "graduated": "已畢業"
+  },
+  "index": {
+    "introduction": "簡介"
+  },
+  "member": {
+    "qualifications": "最高學歷",
+    "room": "研究室",
+    "phone": "聯絡資訊",
+    "expertise": "專長領域",
+    "member": "實驗室成員",
+    "interest": "興趣",
+    "researchDirection": "研究方向",
+    "joinDate": "加入日期",
+    "website": "個人網站",
+    "advisor": {
+      "advisor": "指導教授",
+      "paper": "研討會論文",
+      "certification": "證照"
+    }
+  },
+  "research": {
+    "title": "研究與產學計畫",
+    "researcher": "研究人員",
+    "abstract": "摘要"
+  },
+  "thesis": {
+    "thesis": "論文",
+    "title": "主題",
+    "author": "作者",
+    "year": "年分",
+    "link": "Link"
+  },
+  "department": {
+    "department": "系所",
+    "csie": "資訊工程學系",
+    "mpis": "資訊安全碩士學位學程"
+  },
+  "404": {
+    "title": "404 Not Found",
+    "content": "抱歉，您所訪問的頁面不存在。"
+  },
+  "50x": {
+    "title": "Internal Server Error",
+    "content": "抱歉，伺服器發生錯誤。"
+  },
+  "egg": "恭喜你找到彩蛋！"
+}

@@ -1,0 +1,27 @@
+@import url('https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css');
+
+html {
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+main {
+    height: calc(100vh - var(--bulma-navbar-height));
+    overflow-y: auto;
+}
+
+img {
+    object-fit: cover;
+}
+
+.button {
+    &.is-ghost, &.is-text {
+        &.no-decoration {
+            text-decoration: none;
+        }
+    }
+}
+
+.icon > i.fa-fade.non-fade {
+    --fa-fade-opacity: 0.8;
+}
