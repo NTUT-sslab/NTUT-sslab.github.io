@@ -1,10 +1,10 @@
 [
   {
-    "id": "113598069",
+    "id": "112598053",
     "name": {
       "default": "zh",
-      "en": "KUO, CHEN-CHANG",
-      "zh": "郭丞展"
+      "en": "Ian Yu",
+      "zh": "余承諺"
     },
     "researchDirection": [
       {
@@ -16,24 +16,15 @@
     "interest": [
       {
         "default": "zh",
-        "zh": "小說",
-        "en": "Novel"
-      },
-      {
-        "default": "zh",
         "zh": "電動",
         "en": "Video Games"
       },
-      {
-        "default": "zh",
-        "zh": "籃球",
-        "en": "Basketball"
-      }
+      "Coding"
     ],
-    "image": "data/image/113598069.png",
+    "image": "data/image/112598053.png",
     "avatar": "",
-    "join": "113/6",
-    "email": "duncankuo910531@gmail.com",
+    "join": "112/7",
+    "email": "i529561@gmail.com",
     "department": "csie",
     "degree": "master"
   },
@@ -54,59 +45,6 @@
     "avatar": "data/avatar/112c53025.jpg",
     "join": "112/9",
     "email": "t112c53025@ntut.org.tw",
-    "department": "mpis",
-    "degree": "master"
-  },
-  {
-    "id": "113c53010",
-    "name": {
-      "default": "zh",
-      "en": "Shao-Lei Wang",
-      "zh": "王少雷"
-    },
-    "researchDirection": [
-      {
-        "default": "zh",
-        "zh": "網路安全",
-        "en": "Network Security"
-      }
-    ],
-    "interest": [
-      {
-        "default": "zh",
-        "zh": "羽球",
-        "en": "Badminton"
-      },
-      {
-        "default": "zh",
-        "zh": "排球",
-        "en": "Volleyball"
-      },
-      {
-        "default": "zh",
-        "zh": "吉他",
-        "en": "Guitar"
-      },
-      {
-        "default": "zh",
-        "zh": "唱歌",
-        "en": "Singing"
-      },
-      {
-        "default": "zh",
-        "zh": "游泳",
-        "en": "Swimming"
-      },
-      {
-        "default": "zh",
-        "zh": "電動",
-        "en": "Video games"
-      }
-    ],
-    "image": "data/image/113c53010.jpg",
-    "avatar": "data/avatar/113c53010.jpg",
-    "join": "113/9",
-    "email": "solomon12354@gmail.com",
     "department": "mpis",
     "degree": "master"
   },
@@ -198,11 +136,11 @@
     "degree": "master"
   },
   {
-    "id": "112598053",
+    "id": "113598069",
     "name": {
       "default": "zh",
-      "en": "Ian Yu",
-      "zh": "余承諺"
+      "en": "KUO, CHEN-CHANG",
+      "zh": "郭丞展"
     },
     "researchDirection": [
       {
@@ -214,16 +152,78 @@
     "interest": [
       {
         "default": "zh",
+        "zh": "小說",
+        "en": "Novel"
+      },
+      {
+        "default": "zh",
         "zh": "電動",
         "en": "Video Games"
       },
-      "Coding"
+      {
+        "default": "zh",
+        "zh": "籃球",
+        "en": "Basketball"
+      }
     ],
-    "image": "data/image/112598053.png",
+    "image": "data/image/113598069.png",
     "avatar": "",
-    "join": "112/7",
-    "email": "i529561@gmail.com",
+    "join": "113/6",
+    "email": "duncankuo910531@gmail.com",
     "department": "csie",
+    "degree": "master"
+  },
+  {
+    "id": "113c53010",
+    "name": {
+      "default": "zh",
+      "en": "Shao-Lei Wang",
+      "zh": "王少雷"
+    },
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "網路安全",
+        "en": "Network Security"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "羽球",
+        "en": "Badminton"
+      },
+      {
+        "default": "zh",
+        "zh": "排球",
+        "en": "Volleyball"
+      },
+      {
+        "default": "zh",
+        "zh": "吉他",
+        "en": "Guitar"
+      },
+      {
+        "default": "zh",
+        "zh": "唱歌",
+        "en": "Singing"
+      },
+      {
+        "default": "zh",
+        "zh": "游泳",
+        "en": "Swimming"
+      },
+      {
+        "default": "zh",
+        "zh": "電動",
+        "en": "Video games"
+      }
+    ],
+    "image": "data/image/113c53010.jpg",
+    "avatar": "data/avatar/113c53010.jpg",
+    "join": "113/9",
+    "email": "solomon12354@gmail.com",
+    "department": "mpis",
     "degree": "master"
   }
 ]
