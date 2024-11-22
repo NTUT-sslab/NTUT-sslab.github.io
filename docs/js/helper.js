@@ -127,7 +127,7 @@ function createInformationCard(id, title, cellList, footer, banner = undefined, 
         const weight = it.weight ? `font-weight: ${it.weight};` : '';
         const pos = it.textPosition ? `has-text-${it.textPosition}` : '';
         const tailColons = it.tailColons ? tr('colon') : '';
-        return `<div class="cell ${span} ${pos}" style="${weight}">${it.data}${tailColons}</div>`
+        return `<div class="cell ${span} ${pos}" style="${weight}">${Array.isArray(it.data) ? it.data.join(tr('separator')) : it.data}${tailColons}</div>`
     });
     if(content.length > 0) {
         card.innerHTML += `<div class="card-content">
