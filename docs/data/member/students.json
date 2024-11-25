@@ -116,11 +116,7 @@
   },
   {
     "id": "112c53028",
-    "name": {
-      "default": "zh",
-      "en": "",
-      "zh": "曾祥語"
-    },
+    "name": "曾祥語",
     "researchDirection": [
       ""
     ],
