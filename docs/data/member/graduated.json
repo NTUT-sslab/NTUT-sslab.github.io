@@ -1,1 +1,23 @@
-[]
+[
+	{
+		"id": "mick",
+		"name": {
+			"default": "en",
+			"en": "RAKSASOOK, NATTAPOL (Mick)",
+			"zh": "黃哲明 (Mick)"
+		},
+		"researchDirection": [
+			"O-RAN", "Software Security Testing and Analyse"
+		],
+		"interest": [
+			"Travel", "Anime", "Game", "Novel"
+		],
+		"image": "",
+		"avatar": "data/member/avatar/mick.jpg",
+		"join": "111/9",
+		"website": "https://www.linkedin.com/in/nattapol-raksasook-8171442a5/",
+		"email": "nattapol.raksasook@gmail.com",
+		"department": "mpis",
+		"degree": "master"
+	}
+]
