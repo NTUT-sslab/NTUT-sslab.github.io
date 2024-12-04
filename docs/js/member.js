@@ -144,32 +144,55 @@
     }
 
     async function placeAdvisor() {
+        function line(left, right) {
+            return `<div class="columns advisor-paper">
+                <div class="column is-one-third" style="font-weight: bold;">${left}</div>
+                <span class="column has-text-left-mobile has-text-right advisor-paper-item">
+                    ${right}
+                </span>
+            </div>`;
+        }
         const advisor = await (await fetch(`data/i18n/${lang}/advisor.json`)).json();
         const certification = yaml.load(await (await fetch('data/advisor/certification.yaml')).text());
         const paper = yaml.load(await (await fetch('data/advisor/paper.yaml')).text());
         const top5Paper = paper.slice(0, 5);
         const container = document.getElementById('advisor');
-        const cellList = [
-            { data: tr('member.qualifications'), weight: 'bold', tailColons: true },
-            { data: '<div>' + advisor.qualifications.split(/,\s*/g).join(', </div><div>') + '</div>', textPosition: 'right' },
-            { data: tr('member.room'), weight: 'bold', tailColons: true },
-            { data: advisor.room, textPosition: 'right' },
-            { data: tr('member.phone'), weight: 'bold', tailColons: true },
-            { data: advisor.phone, textPosition: 'right' },
-            { data: tr('member.expertise'), weight: 'bold', tailColons: true },
-            { data: advisor.expertise.map(it => `<div>${it}</div>`).join(''), textPosition: 'right' },
-            { data: tr('member.advisor.certification'), weight: 'bold', tailColons: true },
-            { data: certification.map(it => `<div>${it}</div>`).join(''), textPosition: 'right' },
-            { data: tr('member.advisor.paper'), weight: 'bold', tailColons: true },
-            { data: top5Paper.map(it => `<div class="is-clipped" style="text-overflow: ellipsis; white-space: nowrap; max-width: 350px;">${it.title}</div>`)
-                    .join('') + `<div><a id="paper-more">More...</a></div>`, textPosition: 'right' }
+        const list = [
+            [tr('member.qualifications'), '<div>' + advisor.qualifications.split(/,\s*/g).join(', </div><div>') + '</div>'],
+            [tr('member.room'), advisor.room],
+            [tr('member.phone'), advisor.phone],
+            [tr('member.expertise'), advisor.expertise.map(it => `<div>${it}</div>`).join('')],
+            [tr('member.advisor.certification'), certification.map(it => `<div>${it}</div>`).join('')],
+            [tr('member.advisor.paper'), top5Paper.map(it => `<div class="is-clipped" style="text-overflow: ellipsis; white-space: nowrap;">${it.title}</div>`)
+                .join('') + `<div><a id="paper-more">More...</a></div>`],
         ]
-        const footer = [
-            { text: 'Email', link: `mailto:${advisor.email}`, icon: ['fa-regular', 'fa-envelope'], tooltip: advisor.email },
-        ]
-        container.innerHTML = createInformationCard(null, advisor.name, cellList, footer, advisor.image, 'is-2by1', advisor.name, advisor.avatar, advisor.name).outerHTML;
+        const image = advisor.image ? `<div class="card-image">
+            <figure class="image is-2by1">
+                <img src="${advisor.image}" alt="${advisor.name}">
+            </figure>
+        </div>` : '';
+        container.innerHTML = `<div class="card" draggable="true">
+            ${image}
+            <div class="card-header">
+                <div class="card-header-title">
+                    <figure class="image is-64x64 is-1by1">
+                        <img class="is-rounded has-background-grey" src="${advisor.avatar}" alt="${advisor.name}">
+                    </figure>
+                    <span class="ml-2">${advisor.name}</span>
+                </div>
+            </div>
+            <div class="card-content">
+                ${list.map(it => line(it[0], it[1])).join('')}
+            </div>
+            <div class="card-footer"><div class="card-footer-item">
+                <a href="mailto:${advisor.email}" target="_blank" title="${advisor.email}" class="button is-ghost no-decoration icon-text">
+                    <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>`;
 
-        const paperLevel = document.querySelector('.card-content .grid .cell .is-clipped').parentElement;
+        const paperLevel = document.querySelector('.card-content .advisor-paper-item .is-clipped').parentElement;
         paperLevel.onclick = () => {
             document.getElementById('paper-modal').classList.add('is-active');
         }

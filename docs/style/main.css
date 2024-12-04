@@ -25,3 +25,23 @@ img {
 .icon > i.fa-fade.non-fade {
     --fa-fade-opacity: 0.8;
 }
+
+.advisor-paper {
+}
+
+.advisor-paper-item {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0.75rem;
+    align-content: center;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .advisor-paper-item {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        margin-left: 0;
+        max-width: calc(100% * 2 / 3);
+    }
+}
