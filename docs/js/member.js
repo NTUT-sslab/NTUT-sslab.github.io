@@ -145,7 +145,7 @@
 
     async function placeAdvisor() {
         function line(left, right) {
-            return `<div class="columns advisor-paper">
+            return `<div class="columns">
                 <div class="column is-one-third" style="font-weight: bold;">${left}</div>
                 <span class="column has-text-left-mobile has-text-right advisor-paper-item">
                     ${right}

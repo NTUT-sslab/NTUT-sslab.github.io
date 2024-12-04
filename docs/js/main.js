@@ -204,6 +204,7 @@ let TRANSLATE = {};
     console.log('Using libraries:')
     libraryPrint('Bulma', 'https://bulma.io');
     libraryPrint('Font Awesome', 'https://fontawesome.com');
+    libraryPrint('markdown-it', 'https://github.com/markdown-it/markdown-it');
 
     run();
     document.addEventListener('DOMContentLoaded', afterLoad);
