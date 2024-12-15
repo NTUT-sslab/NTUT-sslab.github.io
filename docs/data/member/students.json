@@ -51,70 +51,6 @@
     "degree": "master"
   },
   {
-    "id": "112c53031",
-    "name": {
-      "default": "zh",
-      "en": "Jeffrey",
-      "zh": "陳正承"
-    },
-    "researchDirection": [
-      {
-        "default": "zh",
-        "zh": "網路入侵偵測\u0026防禦",
-        "en": "Network intrusion detection \u0026 prevention"
-      },
-      {
-        "default": "zh",
-        "zh": "滲透測試",
-        "en": "penetration testing"
-      },
-      {
-        "default": "zh",
-        "zh": "漏洞分析",
-        "en": "vulnerability analysis"
-      },
-      {
-        "default": "zh",
-        "zh": "物聯網安全",
-        "en": "IoT security"
-      },
-      {
-        "default": "zh",
-        "zh": "密碼學",
-        "en": "cryptography"
-      }
-    ],
-    "interest": [
-      {
-        "default": "zh",
-        "zh": "畫畫",
-        "en": "draw"
-      },
-      {
-        "default": "zh",
-        "zh": "電動",
-        "en": "Video Games"
-      },
-      {
-        "default": "zh",
-        "zh": "音樂",
-        "en": "music"
-      },
-      {
-        "default": "zh",
-        "zh": "打籃球",
-        "en": "play basketball"
-      }
-    ],
-    "image": "data/member/image/112c53031.jpg",
-    "avatar": "",
-    "join": "112/9",
-    "website": "https://youtube.com/@holyjc7295?si\u003dJceXgpjTvF1mWZRN  、https://github.com/07050773",
-    "email": "t112c53031@ntut.org.tw",
-    "department": "mpis",
-    "degree": "master"
-  },
-  {
     "id": "112c53028",
     "name": "曾祥語",
     "researchDirection": [
@@ -180,6 +116,97 @@
     "degree": "master"
   },
   {
+    "id": "112598087",
+    "name": {
+      "default": "zh",
+      "en": "Patrick Chou",
+      "zh": "周子榆"
+    },
+    "researchDirection": [
+      "Software Engineering",
+      "Genetic Programming"
+    ],
+    "interest": [
+      "Reading",
+      "Gaming",
+      "Karting",
+      "Traveling",
+      "Piano",
+      "Psychology"
+    ],
+    "image": "data/member/image/112598087.jpg",
+    "avatar": "data/member/avatar/112598087.jpg",
+    "join": "112/9",
+    "website": "",
+    "email": "t112598087@ntut.org.tw",
+    "department": "csie",
+    "degree": "master"
+  },
+  {
+    "id": "112c53031",
+    "name": {
+      "default": "zh",
+      "en": "Jeffrey",
+      "zh": "陳正承"
+    },
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "網路入侵偵測\u0026防禦",
+        "en": "Network intrusion detection \u0026 prevention"
+      },
+      {
+        "default": "zh",
+        "zh": "滲透測試",
+        "en": "penetration testing"
+      },
+      {
+        "default": "zh",
+        "zh": "漏洞分析",
+        "en": "vulnerability analysis"
+      },
+      {
+        "default": "zh",
+        "zh": "物聯網安全",
+        "en": "IoT security"
+      },
+      {
+        "default": "zh",
+        "zh": "密碼學",
+        "en": "cryptography"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "畫畫",
+        "en": "draw"
+      },
+      {
+        "default": "zh",
+        "zh": "電動",
+        "en": "Video Games"
+      },
+      {
+        "default": "zh",
+        "zh": "音樂",
+        "en": "music"
+      },
+      {
+        "default": "zh",
+        "zh": "打籃球",
+        "en": "play basketball"
+      }
+    ],
+    "image": "data/member/image/112c53031.jpg",
+    "avatar": "",
+    "join": "112/9",
+    "website": "https://youtube.com/@holyjc7295?si\u003dJceXgpjTvF1mWZRN  、https://github.com/07050773",
+    "email": "t112c53031@ntut.org.tw",
+    "department": "mpis",
+    "degree": "master"
+  },
+  {
     "id": "113598069",
     "name": {
       "default": "zh",
@@ -216,6 +243,27 @@
     "website": "",
     "email": "duncankuo910531@gmail.com",
     "department": "csie",
+    "degree": "master"
+  },
+  {
+    "id": "113c53035",
+    "name": {
+      "default": "zh",
+      "en": "JR",
+      "zh": "吳佳蓉"
+    },
+    "researchDirection": [
+      "軟體安全"
+    ],
+    "interest": [
+      "看書、運動"
+    ],
+    "image": "data/member/image/113c53035.jpg",
+    "avatar": "data/member/avatar/113c53035.jpg",
+    "join": "113/8",
+    "website": "",
+    "email": "stanny6427@gmail.com",
+    "department": "mpis",
     "degree": "master"
   },
   {
@@ -269,6 +317,45 @@
     "join": "113/9",
     "website": "https://solomon12354.github.io/",
     "email": "solomon12354@gmail.com",
+    "department": "mpis",
+    "degree": "master"
+  },
+  {
+    "id": "113c53017",
+    "name": {
+      "default": "zh",
+      "en": "Henry Chen",
+      "zh": "陳雋洋"
+    },
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "網路安全",
+        "en": "Cyber Security"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "攝影",
+        "en": "Photography"
+      },
+      {
+        "default": "zh",
+        "zh": "健身",
+        "en": "Work out"
+      },
+      {
+        "default": "zh",
+        "zh": "籃球",
+        "en": "Basketball"
+      }
+    ],
+    "image": "data/member/image/113c53017.jpg",
+    "avatar": "data/member/avatar/113c53017.jpg",
+    "join": "113/9",
+    "website": "",
+    "email": "oouuiicc13@gmail.com",
     "department": "mpis",
     "degree": "master"
   }
