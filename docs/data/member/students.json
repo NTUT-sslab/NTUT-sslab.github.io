@@ -358,5 +358,22 @@
     "email": "oouuiicc13@gmail.com",
     "department": "mpis",
     "degree": "master"
+  },
+  {
+    "id": "113598071",
+    "name": "楊昌澔",
+    "researchDirection": [
+      "軟體工程"
+    ],
+    "interest": [
+      "散步"
+    ],
+    "image": "data/member/image/113598071.jpg",
+    "avatar": "data/member/avatar/113598071.jpg",
+    "join": "113/9",
+    "website": "",
+    "email": "",
+    "department": "csie",
+    "degree": "master"
   }
 ]
