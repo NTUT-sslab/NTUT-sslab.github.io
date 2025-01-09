@@ -207,6 +207,40 @@
     "degree": "master"
   },
   {
+    "id": "113c53026",
+    "name": {
+      "default": "zh",
+      "en": "Hao Wei Yong",
+      "zh": "雍皓崴"
+    },
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "智慧居家安全",
+        "en": "Smart Home Cybersecurity"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "街舞",
+        "en": "Street Dance"
+      },
+      {
+        "default": "zh",
+        "zh": "排球",
+        "en": "Volleyball"
+      }
+    ],
+    "image": "data/member/image/113c53026.jpg",
+    "avatar": "data/member/avatar/113c53026.jpg",
+    "join": "113/1",
+    "website": "",
+    "email": "",
+    "department": "mpis",
+    "degree": "master"
+  },
+  {
     "id": "113598069",
     "name": {
       "default": "zh",
@@ -373,6 +407,41 @@
     "join": "113/9",
     "website": "",
     "email": "",
+    "department": "csie",
+    "degree": "master"
+  },
+  {
+    "id": "113598098",
+    "name": {
+      "default": "zh",
+      "en": "WEI,RONG-YOU",
+      "zh": "魏榕佑"
+    },
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "軟體工程",
+        "en": "Software Engineering"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "羽球",
+        "en": "badminton"
+      },
+      {
+        "default": "zh",
+        "zh": "晃晃",
+        "en": "wandering around"
+      },
+      "lol"
+    ],
+    "image": "data/member/image/113598098.png",
+    "avatar": "data/member/avatar/113598098.jpg",
+    "join": "113/9",
+    "website": "https://github.com/unccadavid",
+    "email": "t113598098@ntut.org.tw",
     "department": "csie",
     "degree": "master"
   }
