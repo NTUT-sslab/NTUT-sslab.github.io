@@ -8,5 +8,19 @@
 		},
 		"year": 2024,
 		"link": "https://hdl.handle.net/11296/6q4v68"
+	},
+	{
+		"title": {
+			"default": "zh",
+			"en": "Integrating FIDO2, Zero Trust, and Multi-Factor Authentication into B2C E-commerce: A Comprehensive Study",
+			"zh": "將FIDO2、零信任和多因素身份驗證應用於B2C電子商務：綜合研究"
+		},
+		"author": {
+			"default": "zh",
+			"en": "WU, CHIEN-CHANG",
+			"zh": "吳建璋"
+		},
+		"year": 2024,
+		"link": "https://hdl.handle.net/11296/z8v2ea"
 	}
 ]
