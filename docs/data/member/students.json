@@ -496,7 +496,7 @@
     "interest": [],
     "join": "112/1",
     "degree": "master",
-    "website": "https://",
+    "website": "",
     "email": "t111c72011@ntut.org.tw"
   },
   {
@@ -532,16 +532,43 @@
     "id": "112c72016",
     "name": {
       "default": "zh",
-      "zh": "陳劭睿(沒有資料)"
+      "zh": "陳劭睿",
+      "en": "Snap-Rui-Chen (Ray Chen)"
     },
     "image": "/data/member/avatar/112c72016.jpg",
     "department": "mpis",
-    "researchDirection": [],
-    "interest": [],
-    "join": "1/1",
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "資料科學"
+      },
+      {
+        "default": "zh",
+        "zh": "模型優化"
+      },
+      {
+        "default": "zh",
+        "zh": "機器學習"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "健身"
+      },
+      {
+        "default": "zh",
+        "zh": "聽音樂"
+      },
+      {
+        "default": "zh",
+        "zh": "打籃球"
+      }
+    ],
+    "join": "112/9",
     "degree": "master",
     "website": "https://",
-    "email": "t112c72016@ntut.org.tw"
+    "email": "ray30929830@icloud.com"
   },
   {
     "id": "113c53002",
