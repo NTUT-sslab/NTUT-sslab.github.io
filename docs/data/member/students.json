@@ -444,5 +444,118 @@
     "email": "t113598098@ntut.org.tw",
     "department": "csie",
     "degree": "master"
+  },
+  {
+    "id": "113c53051",
+    "name": {
+      "default": "zh",
+      "zh": "王子杰",
+      "en": "WANG, ZIH-JIE"
+    },
+    "image": "https://ntut-sslab.github.io/data/member/avatar/113c53051.jpg",
+    "department": "mpis",
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "資訊安全",
+        "en": "Information Security"
+      },
+      {
+        "default": "zh",
+        "zh": "深度學習",
+        "en": "Deep Learning"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "看電影",
+        "en": "Watching Movies"
+      },
+      {
+        "default": "zh",
+        "zh": "追星",
+        "en": "Following Idols"
+      }
+    ],
+    "join": "113/9",
+    "degree": "master",
+    "website": "https://",
+    "email": "xsz1230741@gmail.com"
+  },
+  {
+    "id": "111c72011",
+    "name": {
+      "default": "zh",
+      "zh": "王子芸",
+      "en": "Winnie"
+    },
+    "image": "/data/member/avatar/111c72011.jpg",
+    "department": "mpis",
+    "researchDirection": [],
+    "interest": [],
+    "join": "112/1",
+    "degree": "master",
+    "website": "https://",
+    "email": "t111c72011@ntut.org.tw"
+  },
+  {
+    "id": "112c53023",
+    "name": {
+      "default": "zh",
+      "zh": "鄧伃君"
+    },
+    "image": "/data/member/avatar/112c53023.jpg",
+    "department": "mpis",
+    "researchDirection": [
+      {
+        "default": "en",
+        "en": "DDS"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "聽音樂"
+      },
+      {
+        "default": "zh",
+        "zh": "看影片"
+      }
+    ],
+    "join": "112/9",
+    "degree": "master",
+    "website": "",
+    "email": "t112c53023@ntut.org.tw"
+  },
+  {
+    "id": "112c72016",
+    "name": {
+      "default": "zh",
+      "zh": "陳劭睿(沒有資料)"
+    },
+    "image": "/data/member/avatar/112c72016.jpg",
+    "department": "mpis",
+    "researchDirection": [],
+    "interest": [],
+    "join": "1/1",
+    "degree": "master",
+    "website": "https://",
+    "email": "t112c72016@ntut.org.tw"
+  },
+  {
+    "id": "113c53002",
+    "name": {
+      "default": "zh",
+      "zh": "呂兆晞(沒有資料)"
+    },
+    "image": "/data/member/avatar/113c53002.jpg",
+    "department": "mpis",
+    "researchDirection": [],
+    "interest": [],
+    "join": "1/1",
+    "degree": "master",
+    "website": "https://",
+    "email": "t113c53002@ntut.org.tw"
   }
 ]
