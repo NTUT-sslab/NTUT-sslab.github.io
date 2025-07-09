@@ -1,23 +1,67 @@
 [
-	{
-		"id": "mick",
-		"name": {
-			"default": "en",
-			"en": "RAKSASOOK, NATTAPOL (Mick)",
-			"zh": "黃哲明 (Mick)"
-		},
-		"researchDirection": [
-			"O-RAN", "Software Security Testing and Analyse"
-		],
-		"interest": [
-			"Travel", "Anime", "Game", "Novel"
-		],
-		"image": "",
-		"avatar": "data/member/avatar/mick.jpg",
-		"join": "111/9",
-		"website": "https://www.linkedin.com/in/nattapol-raksasook-8171442a5/",
-		"email": "nattapol.raksasook@gmail.com",
-		"department": "mpis",
-		"degree": "master"
-	}
+  {
+    "id": "mick",
+    "name": {
+      "default": "en",
+      "en": "RAKSASOOK, NATTAPOL (Mick)",
+      "zh": "黃哲明 (Mick)"
+    },
+    "researchDirection": [
+      "O-RAN", "Software Security Testing and Analyse"
+    ],
+    "interest": [
+      "Travel", "Anime", "Game", "Novel"
+    ],
+    "image": "",
+    "avatar": "data/member/avatar/mick.jpg",
+    "join": "111/9",
+    "website": "https://www.linkedin.com/in/nattapol-raksasook-8171442a5/",
+    "email": "nattapol.raksasook@gmail.com",
+    "department": "mpis",
+    "degree": "master"
+  },
+  {
+    "id": "112c53020",
+    "name": {
+      "default": "zh",
+      "en": "Jerry Wu",
+      "zh": "吳建璋"
+    },
+    "researchDirection": [
+      {
+        "default": "zh",
+        "zh": "資訊安全",
+        "en": "Information Security"
+      },
+      {
+        "default": "zh",
+        "zh": "零信任",
+        "en": "Zero Trust"
+      },
+      {
+        "default": "zh",
+        "zh": "線上身分快速識別",
+        "en": "FIDO2"
+      }
+    ],
+    "interest": [
+      {
+        "default": "zh",
+        "zh": "看電影",
+        "en": "Watching Movies"
+      },
+      {
+        "default": "zh",
+        "zh": "打電動",
+        "en": "Playing Video Games"
+      }
+    ],
+    "image": "data/member/image/112c53020.jpg",
+    "avatar": "data/member/avatar/112c53020.jpg",
+    "join": "112/9",
+    "website": "",
+    "email": "wujerry7@gmail.com",
+    "department": "mpis",
+    "degree": "master"
+  }
 ]
